@@ -49,6 +49,7 @@ module.exports = {
       },
       exposes: {
         "./AppContent": "./src/AppContent.jsx",
+        "./containers/Title": "./src/containers/Title.jsx",
       },
       shared: {
         ...deps,
